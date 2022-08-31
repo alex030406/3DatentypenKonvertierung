@@ -1,5 +1,21 @@
 ﻿//Aufgabe 1
+Console.WriteLine(short.MinValue);
+Console.WriteLine(short.MaxValue);  
+  
+Console.WriteLine(int.MinValue);
+Console.WriteLine(int.MaxValue);
 
+Console.Write(long.MinValue); 
+Console.WriteLine(long.MaxValue);
+
+Console.WriteLine(float.MinValue);
+Console.WriteLine(float.MaxValue);
+
+Console.WriteLine(double.MinValue);
+Console.WriteLine(double.MaxValue);
+
+Console.Write(decimal.MinValue);
+Console.WriteLine(decimal.MaxValue);
 
 //Aufgabe 2
 bool erste = true;
