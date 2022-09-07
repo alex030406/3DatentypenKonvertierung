@@ -35,6 +35,7 @@ Console.WriteLine("Alter:{0}",alter);
 //Aufgabe 3
 int DollarZahl = 36;
 char Dollar = (char)DollarZahl;
+Console.WriteLine("3{0}",Dollar) ;    
 
 
 //Aufgabe 4
