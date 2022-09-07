@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DatentypenKonvertierung", "3DatentypenKonvertierung\3DatentypenKonvertierung.csproj", "{67EB5BAC-6E39-46AB-9081-3CCFE2EB7D02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verzweigungen", "Verzweigungen\Verzweigungen.csproj", "{9A7E4A6D-1AF8-458D-A4AA-73327A52BA93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{67EB5BAC-6E39-46AB-9081-3CCFE2EB7D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67EB5BAC-6E39-46AB-9081-3CCFE2EB7D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67EB5BAC-6E39-46AB-9081-3CCFE2EB7D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67EB5BAC-6E39-46AB-9081-3CCFE2EB7D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A7E4A6D-1AF8-458D-A4AA-73327A52BA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A7E4A6D-1AF8-458D-A4AA-73327A52BA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A7E4A6D-1AF8-458D-A4AA-73327A52BA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A7E4A6D-1AF8-458D-A4AA-73327A52BA93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
