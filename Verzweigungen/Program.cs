@@ -1,5 +1,7 @@
 ﻿//Aufgabe 1
 
+using System.Runtime.InteropServices;
+
 Console.WriteLine("Bitte geben Sie die erste Zahl ein:");
 string input1= Console.ReadLine();
 Console.WriteLine("Bitte geben Sie die zweite Zahl ein:");
@@ -41,11 +43,38 @@ else
     Console.WriteLine("Die richtige Zahl war: {0}", randomNumber);
 //Aufgabe 3
 
+Console.WriteLine("Stress(0/1):");
+string Eingabe11 = Console.ReadLine();
+Console.WriteLine("Übergewicht(0/1):");
+string Eingabe22 = Console.ReadLine();
+
+int Eingabe11int = Convert.ToInt16(Eingabe11);
+int Eingabe22int = Convert.ToInt16(Eingabe22);
+
+if (Eingabe11int == 1)
+{
+    if (Eingabe22int == 1)
+        Console.WriteLine("62%");
+    else
+        Console.WriteLine("15%");
+            }
+if (Eingabe22int == 1)
+{
+    if (Eingabe11int == 1)
+        Console.WriteLine("62%");
+    else
+        Console.WriteLine("18%");
+}
+if (Eingabe22int == 0)
+{
+    if (Eingabe11int == 0)
+        Console.WriteLine("0%");
+}
 
 
 //Aufgabe 4
 
-    Console.WriteLine("Bitte geben Sie die erste Zahl ein:");
+Console.WriteLine("Bitte geben Sie die erste Zahl ein:");
     string Eingabe1 = Console.ReadLine();
     Console.WriteLine("Bitte geben Sie die zweite Zahl ein:");
     string Eingabe2 = Console.ReadLine();
